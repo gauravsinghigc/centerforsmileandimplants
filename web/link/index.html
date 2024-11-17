@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Floating WhatsApp Button Demo</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="floating-wpp.css">
+    <script type="text/javascript" src="floating-wpp.js"></script>
+</head>
+
+
+    <div id="myButton"></div>
+
+
+<script type="text/javascript">
+    $(function () {
+        $('#myButton').floatingWhatsApp({
+            phone: '918447572565',
+            popupMessage: 'Hello, how can we help you?',
+            message: "",
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: 'Book Appointment',
+            headerColor: 'crimson',
+            backgroundColor: 'crimson',
+            buttonImage: '<img src="whatsapp.svg" />'
+        });
+    });
+</script>
+
+</html>

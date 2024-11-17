@@ -1,0 +1,1 @@
+<iframe src="<?php echo SECURE(PRIMARY_MAP_LOCATION_LINK, "d"); ?>" class="google-map__home" allowfullscreen></iframe>
